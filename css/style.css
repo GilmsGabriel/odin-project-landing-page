@@ -18,6 +18,7 @@
     .header {
         background-color: #1F2937;
         color: #E5E7EB;
+        padding: 20px 200px;
     }    
 
     .logo-text, .hero-main-text {
@@ -36,7 +37,25 @@
     .header a {
         color: #E5E7EB;
         text-decoration: none;
+    }
+
+    .header-navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-navigation nav {
+        align-content: center;
+    }
+
+    .links {
+        display: flex;
         list-style: none;
+        gap: 20px;
+    }
+
+    .header-presentation {
+        margin: 100px 0;
     }
 
 /* 2. Content */
