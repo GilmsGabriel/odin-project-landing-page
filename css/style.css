@@ -56,7 +56,22 @@
 
     .header-presentation {
         margin: 100px 0;
+        display: flex;
+        gap: 60px;
     }
+
+    .header-presentation img {
+        background-color: grey;
+        text-align: center;
+        align-content: center;
+        width: 800px;
+    }
+
+    .presentation-main * {
+        margin-bottom: 8px;
+    }
+
+    
 
 /* 2. Content */
 
