@@ -1,9 +1,9 @@
 /* 0. General */
 
 :root{
-    --dark-background-color: #1F2937;
+    --dark-background-color: #1f372b;
     --secondary-text-color: #E5E7EB;
-    --expressive-blue-color: #3882F6;
+    --expressive-blue-color: #f64e38;
 }
 
 * {
@@ -76,7 +76,7 @@ footer {
 .header-presentation {
     margin: 100px 0;
     display: flex;
-    gap: 60px;
+    gap: 100px;
 }
 
 .header-presentation img {
@@ -84,7 +84,8 @@ footer {
     background-color: grey;
     text-align: center;
     align-content: center;
-    width: 430px;
+    width: 450px;
+    border-radius: 10px;
 }
 
 .presentation-main * {
@@ -173,6 +174,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     color: var(--secondary-text-color);
 }
 
