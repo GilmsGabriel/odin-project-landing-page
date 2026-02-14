@@ -87,7 +87,7 @@
 
 /* 2. Content */
 
-/* 2.2 Information Section */
+/* 2.1 Information Section */
 
 .section-information {
     padding: 2%;
@@ -123,6 +123,29 @@
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
+}
+
+/* Section 2.2 Quote */
+
+.section-quote {
+    flex: 1;
+    height: 470px;
+    background-color: #E5E7EB;
+    padding: 5% 25%;
+    align-content: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: right;
 }
 
 /* Footer */
