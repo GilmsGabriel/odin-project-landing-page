@@ -3,9 +3,10 @@ Landing page for Odin Foundations Course
 
 ## Tasks
 
-- [ ] Create the Header
-- [ ] Create the Content/Body.
-- [ ] Create the Footer
+- [X] Create the Header
+- [X] Create the Content/Body.
+- [X] Create the Footer
+- [?] Add my own style to it?
 
 ## Goals
 
