@@ -1,5 +1,11 @@
 /* 0. General */
 
+:root{
+    --dark-background-color: #1F2937;
+    --secondary-text-color: #E5E7EB;
+    --expressive-blue-color: #3882F6;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +29,8 @@
 
 .header,
 footer {
-    background-color: #1F2937;
-    color: #E5E7EB;
+    background-color: var(--dark-background-color);
+    color: var(--secondary-text-color);
 }
 
 /* 1. Header */
@@ -48,7 +54,7 @@ footer {
 }
 
 .header a {
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     text-decoration: none;
 }
 
@@ -74,10 +80,11 @@ footer {
 }
 
 .header-presentation img {
+    flex-shrink: 0;
     background-color: grey;
     text-align: center;
     align-content: center;
-    width: 800px;
+    width: 430px;
 }
 
 .presentation-main * {
@@ -85,9 +92,9 @@ footer {
 }
 
 .blue-button {
-    background-color: #3882F6;
-    border-color: #3882F6;
-    color: #E5E7EB;
+    background-color: var(--expressive-blue-color);
+    border-color: var(--expressive-blue-color);
+    color: var(--secondary-text-color);
 }
 
 /* 2. Content */
@@ -99,7 +106,7 @@ footer {
 }
 
 .section-information h2 {
-    color: #1F2937;
+    color: var(--dark-background-color);
     font-weight: 900;
     font-size: 36px;
     text-align: center;
@@ -123,7 +130,7 @@ footer {
 
 .card img {
     display: block;
-    border: 4px solid #3882F6;
+    border: 4px solid var(--expressive-blue-color);
     border-radius: 8px;
     width: 160px;
     height: 160px;
@@ -135,19 +142,19 @@ footer {
 .section-quote {
     flex: 1;
     height: 470px;
-    background-color: #E5E7EB;
+    background-color: var(--secondary-text-color);
     padding: 5% 25%;
     align-content: center;
 }
 
 .quote {
-    color: #1F2937;
+    color: var(--dark-background-color);
     font-size: 36px;
     font-weight: 300;
 }
 
 .author {
-    color: #1F2937;
+    color: var(--dark-background-color);
     font-size: 1.5em;
     font-weight: 700;
     text-align: right;
@@ -162,17 +169,18 @@ footer {
 .call-banner {
     padding: 4% 12%;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: var(--expressive-blue-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #F9FAF8;
+    color: var(--secondary-text-color);
 }
 
 .white-button {
-    background-color: #3882F6;
-    border-color: #E5E7EB;
-    color: #E5E7EB;
+    flex-shrink: 0;
+    background-color: var(--expressive-blue-color);
+    border-color: var(--secondary-text-color);
+    color: var(--secondary-text-color);
 }
 
 /* Footer */
