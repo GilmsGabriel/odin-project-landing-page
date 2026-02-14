@@ -86,5 +86,19 @@
 
 /* 2. Content */
 
+/* 2.2 Information Section */
+
+.section-information {
+    padding: 2%;
+}
+
+.section-information h2 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+
 
 /* Footer */
