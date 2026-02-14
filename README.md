@@ -6,7 +6,7 @@ Landing page for Odin Foundations Course
 - [X] Create the Header
 - [X] Create the Content/Body.
 - [X] Create the Footer
-- [?] Add my own style to it?
+- [X] Add my own style to it!!
 
 ## Goals
 
