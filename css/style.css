@@ -21,11 +21,15 @@
     font-size: 1.2em;
 }
 
+.header,
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
 /* 1. Header */
 
 .header {
-    background-color: #1F2937;
-    color: #E5E7EB;
     padding: 20px 200px;
 }
 
@@ -171,3 +175,10 @@
 }
 
 /* Footer */
+
+.footer {
+    font-size: 1.3em;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+}
